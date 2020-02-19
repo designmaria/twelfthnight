@@ -1,80 +1,71 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
-body {
-  /*your style rules go in here */
+.arriba {
+  background-color: orange;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: 7%;
+}
+a {
+  position: sticky;
+  list-style-type: none;
+  border: solid 1px rgb(218, 187, 128);
+  margin-left: 75%;
+  width: 20%;
+  height: 30%;
+  font-family: bebas-kai, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: right;
+  padding: 2px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(103, 166, 198);
 }
 
-/*Here follows the class names that you will have in your html*/
-/*You may have more if you added styles in InDesign*/
-/*You need to add the style attributes between the curly brackets*/
-
-/* the following may not be used  */
-
-section.cover {
-text-align:center;
-width:70%;
-margin: 20px auto;
+.introblock {
+background-image: url("../images/web_background_2.png");
+background-size: cover;
+left: 0;
+right: 0;
+width: 100%;
+height: 50%;
 }
 
-img.playimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
+.author {
+    color: orange;
+    font-family: bebas-kai,serif;
+    font-size: 50px;
+    font-style: normal;
+    padding: 100px;
+    font-weight: 100;
+    text-align: center;
+    word-wrap: break-word;
 
-img.shakespeareimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
+  }
 
-/* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
 
-body {
-}
-section.dramatis {
-}
-section.play {
-}
-div.sceneImage {
-}
-h1.act {
+.sypnosis {
+
+
 
 }
-p.character {
 
-}
-p.charactername {
 
+p {
+font-family: times,serif;
+padding-left: 50px;
+padding-right: 50px;
+color: black;
+text-align: justify;
 }
-h1.dramatishead {
 
-}
-h2.firstscene {
+.lista {
 
-}
-h2.location {
 
-}
-p.play_location {
-
-}
-p.prose {
-
-}
-h2.scene {
-
-}
-p.song {
-
-}
-h2.stagedirection {
-
-}
-p.verseline {
-
-}
-span.character_role {
-}
-span.stage_directions_inline {
 }
