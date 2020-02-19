@@ -1,0 +1,94 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
+body {
+}
+section.dramatis, h1.act {
+}
+section.play {
+}
+div.sceneImage {
+  size: 100%
+
+}
+
+p.character {
+
+}
+p.charactername {
+
+}
+h1.dramatishead {
+
+}
+h2.firstscene {
+
+}
+h2.location {
+
+}
+p.play_location {
+
+}
+p.prose {
+
+}
+h2.scene {
+
+}
+p.song {
+
+}
+h2.stagedirection {
+
+}
+p.verseline {
+
+}
+span.character_role {
+}
+span.stage_directions_inline {
+}
+
+ul {
+display: flex;
+font: times;
+background: solid orange;
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+ul li {
+  color: rgb(235, 127, 0);
+  background: orange;
+  padding: 1rem;
+  position: relative;
+  display: block;
+  list-style: none;
+  transition-duration: 0.5s;
+  float: left;
+
+}
+li:hover {
+background: red;
+cursor: pointer;
+}
+
+ul li ul li {
+display: none;
+transition: all 0.5s ease;
+visibility: visible;
+background: orange;
+margin-top: 1rem;
+  left: 0;
+opacity: 0;
+cursor: pointer;
+
+}
+
+
+
+
+
+
+
+}

@@ -1,80 +1,73 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
-body {
-  /*your style rules go in here */
+.arriba {
+  background-color: orange;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: 7%;
+}
+.readme {
+position: sticky;
+list-style-type: none;
+font-family: bebas-kai, sans-serif;
+font-size: 25px;
+font-weight: 100;
+text-align: right;
+background-color: rgb(255, 238, 199);
+width: 20%;
+height: 10%;
+}
+a {
+  font-family: bebas-kai, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: right;
+  text-decoration: none;
+  color: rgb(210, 69, 0);
+}
+ul:hover {
+  cursor: pointer;
+  color: red;
 }
 
-/*Here follows the class names that you will have in your html*/
-/*You may have more if you added styles in InDesign*/
-/*You need to add the style attributes between the curly brackets*/
-
-/* the following may not be used  */
-
-section.cover {
-text-align:center;
-width:70%;
-margin: 20px auto;
+.introblock {
+  background-image: url("../images/web_background_1.png");
+  background-size: cover;
 }
 
-img.playimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
+.author {
+    color: orange;
+    font-family: bebas-kai,serif;
+    font-size: 50px;
+    font-style: normal;
+    padding: 50px;
+    font-weight: 100;
+    text-align: center;
+  }
 
-img.shakespeareimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
 
-/* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
+.sypnosis {
 
-body {
-}
-section.dramatis {
-}
-section.play {
-}
-div.sceneImage {
-}
-h1.act {
+
 
 }
-p.character {
+
+
+p {
+font-family: times,serif;
+padding-left: 50px;
+padding-right: 50px;
+color: black;
+text-align: justify;
+}
+
+.lista {
+
 
 }
-p.charactername {
-
-}
-h1.dramatishead {
-
-}
-h2.firstscene {
-
-}
-h2.location {
-
-}
-p.play_location {
-
-}
-p.prose {
-
-}
-h2.scene {
-
-}
-p.song {
-
-}
-h2.stagedirection {
-
-}
-p.verseline {
-
-}
-span.character_role {
-}
-span.stage_directions_inline {
+ul ul li {
+  list-style-type: circle;
+  text-decoration: overline;
 }
