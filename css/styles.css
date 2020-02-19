@@ -6,8 +6,10 @@
   left: 0;
   right: 0;
   width:100%;
-  height: 7%;
+  height: 8%;
+  opacity: 50%;
 }
+
 a {
   position: sticky;
   list-style-type: none;
@@ -29,12 +31,12 @@ a:hover {
 }
 
 .introblock {
-background-image: url("../images/web_background_2.png");
-background-size: cover;
-left: 0;
-right: 0;
-width: 100%;
-height: 50%;
+  background-image: url("../images/web_background_2.png");
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
 }
 
 .author {
@@ -42,7 +44,7 @@ height: 50%;
     font-family: bebas-kai,serif;
     font-size: 50px;
     font-style: normal;
-    padding: 100px;
+    padding: 100px 20px;
     font-weight: 100;
     text-align: center;
     word-wrap: break-word;
