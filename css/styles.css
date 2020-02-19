@@ -8,6 +8,7 @@
   width:100%;
   height: 7%;
 }
+<<<<<<< HEAD
 a {
   position: sticky;
   list-style-type: none;
@@ -15,10 +16,25 @@ a {
   margin-left: 75%;
   width: 20%;
   height: 30%;
+=======
+.readme {
+position: sticky;
+list-style-type: none;
+font-family: bebas-kai, sans-serif;
+font-size: 25px;
+font-weight: 100;
+text-align: right;
+background-color: rgb(255, 238, 199);
+width: 20%;
+height: 10%;
+}
+a {
+>>>>>>> bf4546e7e9690f7af34ede2d64da96fb2e1d2b64
   font-family: bebas-kai, sans-serif;
   font-size: 25px;
   font-weight: 100;
   text-align: right;
+<<<<<<< HEAD
   padding: 2px;
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -53,6 +69,35 @@ height: 50%;
 .sypnosis {
 
 
+=======
+  text-decoration: none;
+  color: rgb(210, 69, 0);
+}
+ul:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.introblock {
+  background-image: url("img/web_background_1.png");
+  background-size: cover;
+}
+
+.author {
+    color: orange;
+    font-family: bebas-kai,serif;
+    font-size: 50px;
+    font-style: normal;
+    padding: 50px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+
+.sypnosis {
+
+
+>>>>>>> bf4546e7e9690f7af34ede2d64da96fb2e1d2b64
 
 }
 
@@ -69,3 +114,10 @@ text-align: justify;
 
 
 }
+<<<<<<< HEAD
+=======
+ul ul li {
+  list-style-type: circle;
+  text-decoration: overline;
+}
+>>>>>>> bf4546e7e9690f7af34ede2d64da96fb2e1d2b64
