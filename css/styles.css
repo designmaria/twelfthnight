@@ -1,33 +1,65 @@
-.arriba {
-  background-color: orange;
-  position: fixed;
+body {
+  margin:0;
   padding: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  width:100%;
-  height: 8%;
-  opacity: 50%;
+  border: 0;
 }
 
-a {
-  position: sticky;
-  list-style-type: none;
-  border: solid 1px rgb(218, 187, 128);
-  margin-left: 75%;
-  width: 20%;
-  height: 30%;
-  font-family: bebas-kai, sans-serif;
-  font-size: 25px;
-  font-weight: 100;
-  text-align: right;
-  padding: 2px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
+.navbar-expand{
+  margin: 0;
+  border: 0;
+  padding-top: 8;
+  padding-bottom: 8;
+  padding-left: 16;
+  padding-right: 16;
+  width: 368;
+  height: 38;
+  width: 100%;
+  background-color: orange;
+  float: right;
 }
+
+.container {
+padding: 0;
+width: 368;
+height: 38;
+background-color: orange;
+padding: 3px;
+justify-content: space-around;
+float: right;
+margin-right: 15px;
+}
+
+.navbar-nav {
+  margin-left: 54.987;
+  padding: 0;
+  width: 313.013;
+  height: 38;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  width: 313.013;
+  height: 38;
+  list-style: none;
+}
+
+.active {
+  font-family: bebas-kai, sans-serif;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  border: solid 1px white;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 4px;
+
+}
+
 a:hover {
   cursor: pointer;
-  color: rgb(103, 166, 198);
+  color: lightblue;
 }
 
 .introblock {
@@ -48,11 +80,18 @@ a:hover {
     font-weight: 100;
     text-align: center;
     word-wrap: break-word;
-
+    word-spacing: 10px;
+    letter-spacing: 4px;
   }
 
 
 .sypnosis {
+  font-family: times, sans-serif;
+  font-size: 25px;
+  word-wrap: normal;
+  color: black;
+  text-align: justify;
+  padding: 40px;
 
 
 
@@ -68,6 +107,24 @@ text-align: justify;
 }
 
 .lista {
+list-style-type: disc;
+font-size: 25px;
+color: black;
+font-family: bebas-kai, sans-serif;
+font-weight: 400;
+border: solid orange 2px;
+background-image: url("../images/olas1.jpg");
+background-size: cover;
+margin-left: 0;
+margin-right: 0;
+right: 0;
+left: 0;
+}
 
+ul li {
+  word-wrap: break-word;
+  float: center;
+  text-align: center;
+  list-style-position: inside;
 
 }
