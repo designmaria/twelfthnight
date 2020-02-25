@@ -1,9 +1,37 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+
 }
 body {
 }
-section.dramatis, h1.act {
+section.dramatis {
+  background-image: url("../images/web_background_2.png");
+  background-size: cover;
+  border: 5px solid orange;
+  background-attachment: scroll;
+
 }
+h1.dramatishead {
+  font-size: 30px;
+  font-family: bebas-kai, sans-serif;
+  font-weight: 400;
+  word-break: normal;
+  color:  black;
+  text-align: center;
+}
+
+h1.act {
+  font-size: 25px;
+  font-family: bebas-kai, sans-serif;
+  font-weight: 400;
+  word-break: normal;
+  color: orange;
+  border: solid 5px orange;
+  text-align: center;
+  background-image: url("../images/olas1.jpg");
+  background-size: cover;
+  background-repeat:
+}
+
 section.play {
 }
 div.sceneImage {
@@ -15,11 +43,18 @@ p.character {
 
 }
 p.charactername {
+  font-family: bebas-kai, sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: left;
 
 }
-h1.dramatishead {
-
+.character_role {
+  font-family: times, serif;
+  color: black;
+  font-size: 13px;
 }
+
 h2.firstscene {
 
 }
@@ -50,39 +85,21 @@ span.stage_directions_inline {
 }
 
 ul {
-display: flex;
-font: times;
-background: solid orange;
-list-style: none;
-margin: 0;
-padding-left: 0;
-}
-ul li {
-  color: rgb(235, 127, 0);
-  background: orange;
-  padding: 1rem;
-  position: relative;
-  display: block;
+  margin: 0;
+  border: 0;
   list-style: none;
-  transition-duration: 0.5s;
-  float: left;
+  background-color: orange;
+  position: sticky;
+  display: inline-block;
 
+}
+ul li.indice {
+display: hidden;
 }
 li:hover {
-background: red;
-cursor: pointer;
 }
-
 ul li ul li {
 display: none;
-transition: all 0.5s ease;
-visibility: visible;
-background: orange;
-margin-top: 1rem;
-  left: 0;
-opacity: 0;
-cursor: pointer;
-
 }
 
 
