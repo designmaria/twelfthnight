@@ -55,51 +55,49 @@ section.dramatis {
   padding-bottom: 10px;
   margin: 0;
 }
-h1.dramatishead, p.play_location {
-  margin-top: 0;
-  padding-top: 10%;
-  font-size: 30px;
-  font-family: bebas-kai, sans-serif;
-  font-weight: 400;
-  word-break: normal;
-  color:  black;
-  text-align: center;
-}
+        h1.dramatishead, p.play_location {
+          margin-top: 0;
+          padding-top: 10%;
+          font-size: 30px;
+          font-family: bebas-kai, sans-serif;
+          font-weight: 400;
+          word-break: normal;
+          color:  black;
+          text-align: center;
+        }
+                  p.charactername {
+                    font-family: bebas-kai, sans-serif;
+                    color: black;
+                    font-size: 25px;
+                    text-align: left;
+                    margin-left: 7%;
 
+                  }
+                  .character_role {
+                    font-family: times, serif;
+                    color: black;
+                    font-size: 18px;
+                  }
+                  .charactername_1 {
+                    font-size: 18px;
+                    font-family: bebas-kai, sans-serif;
+                    margin-left: 7%;
+                  }
 
 section.play {
-  position: sticky;
+
 }
 div.sceneImage {
   size: 100%
 
 }
 
-p.character {
 
-}
-p.charactername {
-  font-family: bebas-kai, sans-serif;
-  color: black;
-  font-size: 25px;
-  text-align: left;
-  margin-left: 7%;
 
-}
-.character_role {
-  font-family: times, serif;
-  color: black;
-  font-size: 18px;
-}
-.charactername_1 {
-  font-size: 18px;
-  font-family: bebas-kai, sans-serif;
-  margin-left: 7%;
-}
 
 h1.act {
   padding: 8%;
-  font-size: 35px;
+  font-size: 40px;
   font-family: bebas-kai, sans-serif;
   font-weight: 400;
   word-break: normal;
@@ -111,17 +109,57 @@ h1.act {
 
 }
 
-h2.firstscene {
+    h2.firstscene, h2.scene {
+      font-family: bebas-kai, sans-serif;
+      color: orange;
+      word-spacing: 15%;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+      border-top: solid 15px orange;
+      margin-top: 0;
+      padding-top: 2%;
 
 }
-h2.location {
+    h2.location {
+      font-size: 20px;
+      font-family: times, serif;
+      color: black;
+      text-align: right;
+      padding-bottom: 2%;
+      margin-right: 5%;
+}
+
+    h2.stagedirection {
+      font-size: 18px;
+      font-family: times, serif;
+      color: black;
+      text-align: right;
+      margin-right: 5%;
+      text-decoration: none;
+      font-weight: normal;
 
 }
-p.play_location {
+              .character_inline {
+                text-transform: uppercase;
+                font-family: interstate-compressed, sans-serif;
+                font-weight: 700;
+                color: black 90%;
+              }
+              p.character {
+                font-family: interstate-compressed, sans-serif;
+                text-transform: uppercase;
+                font-size: 18px;
+                margin-left: 5%;
+                font-weight: 700;
+                font-style: normal;
 
+              }
 
-}
-p.prose {
+              p.prose, p.verseline {
+                font-family: times, serif;
+                font-size: 15px;
+                margin-left: 5%;
 
 }
 h2.scene {
@@ -130,9 +168,7 @@ h2.scene {
 p.song {
 
 }
-h2.stagedirection {
 
-}
 p.verseline {
 
 }
