@@ -19,34 +19,35 @@ ul {
 
 }
 
-ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 10;
-  width: 12%;
-  background: orange;
-  font-family: bebas-kai, sans-serif;
-  color: black;
-  font-size: 25px;
-  position: relative;
+        ul li {
+          display: inline-block;
+          margin: 0;
+          padding: 10;
+          width: 12%;
+          background: orange;
+          font-family: bebas-kai, sans-serif;
+          color: black;
+          font-size: 25px;
+          position: relative;
 
-}
+        }
 
-ul li:hover{
-  cursor: pointer;
-  color: red;
-  transition: 1s;
-}
-a {
-  font-size: times, serif;
-  color: black;
-  font-size: black;
-  font-weight: 400;
-  text-decoration: none;
-}
-li ul li {
-  display:none;
-}
+         a:hover{
+          cursor: pointer;
+          color: red;
+          transition: 1s;
+        }
+        a {
+          display: block;
+          font-size: times, serif;
+          color: black;
+          font-size: black;
+          font-weight: 400;
+          text-decoration: none;
+        }
+        li ul li {
+          display:none;
+        }
 
 section.dramatis {
   background-image: url("../images/web_background_2.png");
