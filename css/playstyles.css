@@ -3,14 +3,61 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 }
 body {
 }
+.table-titulo {
+  display: none;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  background: orange;
+  list-style-type: none;
+  overflow: hidden;
+
+}
+
+ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 10;
+  width: 12%;
+  background: orange;
+  font-family: bebas-kai, sans-serif;
+  color: black;
+  font-size: 25px;
+  position: relative;
+
+}
+
+ul li:hover{
+  cursor: pointer;
+  color: red;
+  transition: 1s;
+}
+a {
+  font-size: times, serif;
+  color: black;
+  font-size: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+li ul li {
+  display:none;
+}
+
 section.dramatis {
   background-image: url("../images/web_background_2.png");
   background-size: cover;
-  border: 5px solid orange;
   background-attachment: scroll;
-
+  padding-bottom: 10px;
+  margin: 0;
 }
-h1.dramatishead {
+h1.dramatishead, p.play_location {
+  margin-top: 0;
+  padding-top: 10%;
   font-size: 30px;
   font-family: bebas-kai, sans-serif;
   font-weight: 400;
@@ -19,20 +66,9 @@ h1.dramatishead {
   text-align: center;
 }
 
-h1.act {
-  font-size: 25px;
-  font-family: bebas-kai, sans-serif;
-  font-weight: 400;
-  word-break: normal;
-  color: orange;
-  border: solid 5px orange;
-  text-align: center;
-  background-image: url("../images/olas1.jpg");
-  background-size: cover;
-  background-repeat:
-}
 
 section.play {
+  position: sticky;
 }
 div.sceneImage {
   size: 100%
@@ -45,14 +81,34 @@ p.character {
 p.charactername {
   font-family: bebas-kai, sans-serif;
   color: black;
-  font-size: 15px;
+  font-size: 25px;
   text-align: left;
+  margin-left: 7%;
 
 }
 .character_role {
   font-family: times, serif;
   color: black;
-  font-size: 13px;
+  font-size: 18px;
+}
+.charactername_1 {
+  font-size: 18px;
+  font-family: bebas-kai, sans-serif;
+  margin-left: 7%;
+}
+
+h1.act {
+  padding: 8%;
+  font-size: 35px;
+  font-family: bebas-kai, sans-serif;
+  font-weight: 400;
+  word-break: normal;
+  color: black;
+  text-align: center;
+  background-image: url("../images/sand.png");
+  background-size: cover;
+  margin: 0;
+
 }
 
 h2.firstscene {
@@ -62,6 +118,7 @@ h2.location {
 
 }
 p.play_location {
+
 
 }
 p.prose {
@@ -84,23 +141,7 @@ span.character_role {
 span.stage_directions_inline {
 }
 
-ul {
-  margin: 0;
-  border: 0;
-  list-style: none;
-  background-color: orange;
-  position: sticky;
-  display: inline-block;
 
-}
-ul li.indice {
-display: hidden;
-}
-li:hover {
-}
-ul li ul li {
-display: none;
-}
 
 
 
