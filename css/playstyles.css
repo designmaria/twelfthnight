@@ -18,7 +18,9 @@ ul {
   overflow: hidden;
 
 }
+        li.TOC-Heading-1 {
 
+        }
         ul li {
           display: inline-block;
           margin: 0;
@@ -29,6 +31,8 @@ ul {
           color: black;
           font-size: 25px;
           position: relative;
+          float: left;
+          padding: 15px;
 
         }
 
@@ -136,7 +140,7 @@ h1.act {
       font-family: times, serif;
       color: black;
       text-align: right;
-      margin-right: 5%;
+      margin-right: 15%;
       text-decoration: none;
       font-weight: normal;
 
@@ -153,7 +157,7 @@ h1.act {
                 font-family: interstate-compressed, sans-serif;
                 text-transform: uppercase;
                 font-size: 25px;
-                margin-left: 5%;
+                margin-left: 15%;
                 font-weight: 700;
                 font-style: normal;
 
@@ -162,12 +166,11 @@ h1.act {
               p.prose, p.verseline {
                 font-family: times, serif;
                 font-size: 15px;
-                margin-left: 5%;
+                margin-left: 15%;
+                margin-right: 15%;
 
 }
-h2.scene {
 
-}
               p.song {
                 font-family: times, serif;
                 font-size: 15px;
@@ -177,9 +180,7 @@ h2.scene {
 
               }
 
-p.verseline {
 
-}
 span.character_role {
 }
               span.stage_directions_inline {
