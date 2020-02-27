@@ -131,7 +131,7 @@ h1.act {
       margin-right: 5%;
 }
 
-    h2.stagedirection {
+    h2.stagedirection  {
       font-size: 18px;
       font-family: times, serif;
       color: black;
@@ -143,14 +143,16 @@ h1.act {
 }
               .character_inline {
                 text-transform: uppercase;
-                font-family: interstate-compressed, sans-serif;
+                font-family: bebas-kai, sans-serif;
+                font-size: 19px;
                 font-weight: 700;
                 color: black 90%;
+
               }
               p.character {
                 font-family: interstate-compressed, sans-serif;
                 text-transform: uppercase;
-                font-size: 18px;
+                font-size: 25px;
                 margin-left: 5%;
                 font-weight: 700;
                 font-style: normal;
@@ -166,17 +168,27 @@ h1.act {
 h2.scene {
 
 }
-p.song {
+              p.song {
+                font-family: times, serif;
+                font-size: 15px;
+                margin-left: 5%;
+                font-style: italic;
 
-}
+
+              }
 
 p.verseline {
 
 }
 span.character_role {
 }
-span.stage_directions_inline {
-}
+              span.stage_directions_inline {
+                  font-family: times, serif;
+                  font-size: 15px;
+                  font-weight: bold;
+
+
+              }
 
 
 
