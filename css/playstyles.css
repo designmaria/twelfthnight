@@ -177,6 +177,8 @@ h1.act {
                 font-size: 18px;
                 margin-left: 5%;
                 font-style: italic;
+                margin-right: 15%;
+                margin-left: 15%;
 
 
               }
@@ -192,7 +194,12 @@ span.character_role {
 
               }
 
-
+.lastlineinverse {
+  font-family: bebas-kai, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
 
 
 
