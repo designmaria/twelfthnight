@@ -63,7 +63,7 @@ section.dramatis {
         h1.dramatishead, p.play_location {
           margin-top: 0;
           padding-top: 10%;
-          font-size: 30px;
+          font-size: 40px;
           font-family: bebas-kai, sans-serif;
           font-weight: 400;
           word-break: normal;
@@ -73,7 +73,7 @@ section.dramatis {
                   p.charactername {
                     font-family: bebas-kai, sans-serif;
                     color: black;
-                    font-size: 25px;
+                    font-size: 35px;
                     text-align: left;
                     margin-left: 7%;
 
@@ -81,10 +81,11 @@ section.dramatis {
                   .character_role {
                     font-family: times, serif;
                     color: black;
-                    font-size: 18px;
+                    font-size: 22px;
+                    font-weight: bolder;
                   }
                   .charactername_1 {
-                    font-size: 18px;
+                    font-size: 30px;
                     font-family: bebas-kai, sans-serif;
                     margin-left: 7%;
                   }
@@ -119,7 +120,7 @@ h1.act {
       color: orange;
       word-spacing: 15%;
       text-align: center;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: 400;
       border-top: solid 15px orange;
       margin-top: 0;
@@ -127,16 +128,16 @@ h1.act {
 
 }
     h2.location {
-      font-size: 20px;
+      font-size: 25px;
       font-family: times, serif;
       color: black;
       text-align: right;
       padding-bottom: 2%;
-      margin-right: 5%;
+      margin-right: 15%;
 }
 
     h2.stagedirection  {
-      font-size: 18px;
+      font-size: 22px;
       font-family: times, serif;
       color: black;
       text-align: right;
@@ -148,7 +149,7 @@ h1.act {
               .character_inline {
                 text-transform: uppercase;
                 font-family: bebas-kai, sans-serif;
-                font-size: 19px;
+                font-size: 22px;
                 font-weight: 700;
                 color: black 90%;
 
@@ -156,7 +157,7 @@ h1.act {
               p.character {
                 font-family: interstate-compressed, sans-serif;
                 text-transform: uppercase;
-                font-size: 25px;
+                font-size: 28px;
                 margin-left: 15%;
                 font-weight: 700;
                 font-style: normal;
@@ -165,7 +166,7 @@ h1.act {
 
               p.prose, p.verseline {
                 font-family: times, serif;
-                font-size: 15px;
+                font-size: 18px;
                 margin-left: 15%;
                 margin-right: 15%;
 
@@ -173,7 +174,7 @@ h1.act {
 
               p.song {
                 font-family: times, serif;
-                font-size: 15px;
+                font-size: 18px;
                 margin-left: 5%;
                 font-style: italic;
 
