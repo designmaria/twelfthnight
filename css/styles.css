@@ -4,62 +4,44 @@ body {
   border: 0;
 }
 
-.navbar-expand{
+.navbar-expand {
   margin: 0;
-  border: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 368px;
-  height: 38px;
-  width: 100%;
-  background-color: orange;
-  float: right;
-}
-
-.container {
-padding: 0;
-width: 368px;
-height: 38px;
-background-color: orange;
-padding: 3px;
-justify-content: space-around;
-float: right;
-margin-right: 15px;
-}
-
-.navbar-nav {
-  margin-left: 54.987px;
   padding: 0;
-  width: 313.013px;
-  height: 38px;
+  background-image: url("../images/sand.png");
+  background-size: cover;
+  position: sticky;
+}
+.navbar-nav {
+  margin: 0;
+  padding-left: 1350px;
+  padding-right: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .nav-item {
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
-  width: 313.013px;
-  height: 38px;
-  list-style: none;
 }
 
 .active {
   font-family: bebas-kai, sans-serif;
-  color: white;
-  font-weight: 400;
+  font-size: 50px;
+  color: orange;
+  border: solid 2px orange;
   text-align: center;
-  border: solid 1px white;
-  justify-content: flex-end;
-  text-decoration: none;
-  font-size: 25px;
   padding: 4px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  float: left;
+
 
 }
 
 a:hover {
   cursor: pointer;
-  color: lightblue;
+  color: red;
 }
 
 .introblock {
