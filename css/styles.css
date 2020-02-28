@@ -74,6 +74,8 @@ a:hover {
   color: black;
   text-align: justify;
   padding: 40px;
+  background-image: url("../images/sand.png");
+  background-size: cover;
 }
 
 div.cover_image {
