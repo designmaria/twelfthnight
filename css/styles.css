@@ -4,45 +4,6 @@ body {
   border: 0;
 }
 
-.navbar-expand {
-  margin: 0;
-  padding: 0;
-  background-image: url("../images/sand.png");
-  background-size: cover;
-  position: sticky;
-}
-.navbar-nav {
-  margin: 0;
-  padding-left: 1350px;
-  padding-right: 2px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.nav-item {
-  margin: 0 0 0 0;
-  padding: 0;
-}
-
-.active {
-  font-family: bebas-kai, sans-serif;
-  font-size: 50px;
-  color: orange;
-  border: solid 2px orange;
-  text-align: center;
-  padding: 4px;
-  position: relative;
-  display: block;
-  text-decoration: none;
-  float: left;
-
-
-}
-
-a:hover {
-  cursor: pointer;
-  color: red;
-}
 
 .introblock {
   background-image: url("../images/web_background_2.png");
