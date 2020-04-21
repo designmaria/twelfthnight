@@ -19,7 +19,7 @@ body {
 .author {
     color: orange;
     font-family: bebas-kai,serif;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     padding: 100px 20px;
     font-weight: 100;
@@ -28,23 +28,22 @@ body {
     word-spacing: 10px;
     letter-spacing: 4px;
     animation-name: authors;
-    animation-duration: 4s;
+    animation-duration: 2s;
     }
 
+
+
 @keyframes authors {
-  From {
-    top: 300%;
-    opacity: 0;
-  }
-  To {
-    opacity: 100%;
-    top: 0;
-    }
+From {opacity: 0;}
+To {opacity: 1;}
 }
+
+
 
 .navbar {
 background-color: ;
 padding: 15px;
+animation-name: fadeIn;
 }
 
 a {
@@ -53,9 +52,15 @@ color: orange;
 text-decoration: none;
 text-align: center;
 font-size: 25px;
-padding: 8%;
+padding-left: 8%;
+padding-right: 8%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
 
+a:hover {
+  background-color: lightblue;
+}
 
 .sypnosis {
   font-family: times, sans-serif;
@@ -66,9 +71,15 @@ padding: 8%;
   padding: 40px;
   background-image: url("../images/sand.png");
   background-size: cover;
-  animation-name: fadeUp;
-  animation-play-state: running;
-  animation-fill-mode: forwards;
+  animation-name: resumen;
+  animation-duration: 3s;
+
+}
+
+@keyframes resumen {
+  From {
+
+  }
 
 }
 
