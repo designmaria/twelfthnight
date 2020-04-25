@@ -154,7 +154,7 @@ ul li {
 
 .sypnosis {
   font-family: times, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   word-wrap: normal;
   color: black;
   text-align: justify;
@@ -162,4 +162,42 @@ ul li {
   background-image: url("../images/sand.png");
   background-size: cover;
 }
+
+p{
+  font-family: times,serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  text-align: justify;
+}
+
+img {
+  overflow: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.lista {
+border: solid orange 2px;
+margin-left: 0;
+margin-right: 0;
+right: 0;
+left: 0;
+margin-top: 70px;
+}
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+  font-size: 25px;
+  color: black;
+  font-family: bebas-kai, sans-serif;
+  font-weight: 700;
+  margin-left: 0%;
+  padding-left: 0;
+  text-align: center;
+
 }
