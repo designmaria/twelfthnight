@@ -73,7 +73,6 @@ a:hover {
   background-size: cover;
   animation-name: resumen;
   animation-duration: 3s;
-
 }
 
 @keyframes resumen {
