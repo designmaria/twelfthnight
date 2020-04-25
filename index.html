@@ -18,11 +18,13 @@
           </div>
         </div>
 
-        <div class="navbar">
-          <a href="play_25.html">Read me</a>
+        <div class="topnav" id="myTopnav">
+          <a href="play_25.html" class="active">Read me</a>
           <a href="https://www.playshakespeare.com/twelfth-night/characters">Meet the characters</a>
           <a href="https://www.britannica.com/topic/Twelfth-Night">History</a>
           <a href="https://www.britannica.com/biography/William-Shakespeare">About Shakespeare</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
         </div>
 
         <div class="cover_image">
@@ -43,6 +45,16 @@
                   </div>
          </div>
         </div>
+      <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+      </script>
   </body>
 
 </html>
