@@ -63,6 +63,31 @@ a:hover {
   background-color: lightblue;
 }
 
+.beachback {
+  background-image: url("../images/beach.png");
+  background-size: cover;
+}
+
+.quote {
+  margin: 0,0,0,0;
+  padding: 13%;
+}
+
+
+p.quote1 {
+  font-family: bebas-kai, sans-serif;
+  font-size: 40px;
+  word-wrap: normal;
+  color: black;
+  font-style: italic;
+  letter-spacing: 5%;
+  animation-name: quotation;
+  animation-duration:10s;
+}
+@keyframes quotation {
+  from {opacity:0;}
+  to{opacity:1;}
+}
 .sypnosis {
   font-family: times, sans-serif;
   font-size: 25px;
@@ -70,8 +95,6 @@ a:hover {
   color: black;
   text-align: justify;
   padding: 40px;
-  background-image: url("../images/sand.png");
-  background-size: cover;
   animation-name: resumen;
   animation-duration: 3s;
 }
@@ -101,6 +124,7 @@ padding-left: 50px;
 padding-right: 50px;
 color: black;
 text-align: justify;
+font-weight: bold;
 }
 
 .lista {
