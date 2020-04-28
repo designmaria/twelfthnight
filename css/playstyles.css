@@ -55,20 +55,21 @@ a {
 
 
 section.dramatis {
-  background-image: url("../images/web_background_2.png");
-  background-size: cover;
-  background-attachment: scroll;
+  background-image: url("../images/stage_drama.png");
+  background-position: top;
+  background-repeat: no-repeat;
   padding-bottom: 10px;
-  margin: 0;
+  margin-left: 0px;
+  margin-right: 0px;
 }
         h1.dramatishead, p.play_location {
           margin-top: 0;
           padding-top: 10%;
-          font-size: 40px;
+          font-size: 45px;
           font-family: bebas-kai, sans-serif;
           font-weight: 400;
           word-break: normal;
-          color:  black;
+          color:  orange;
           text-align: center;
         }
                   p.charactername {
@@ -76,7 +77,7 @@ section.dramatis {
                     color: black;
                     font-size: 35px;
                     text-align: left;
-                    margin-left: 7%;
+                    margin-left: 25%;
 
                   }
                   .character_role {
@@ -86,9 +87,9 @@ section.dramatis {
                     font-weight: bolder;
                   }
                   .charactername_1 {
-                    font-size: 30px;
+                    font-size: 25px;
                     font-family: bebas-kai, sans-serif;
-                    margin-left: 7%;
+                    margin-left: 15%;
                   }
 
 section.play {
@@ -168,7 +169,7 @@ h1.act {
                 margin-left: 15%;
                 margin-right: 15%;
 
-}
+              }
 
               p.song {
                 font-family: times, serif;
@@ -177,10 +178,28 @@ h1.act {
                 font-style: italic;
                 margin-right: 15%;
                 margin-left: 15%;
-
-
               }
 
+              .orsino {
+                float: right;
+                width: 60%;
+              }
+
+              .ship {
+                float: right;
+                width: 60%;
+                margin-left: 0;
+              }
+
+            .waves_scene {
+              background-image: url("../images/actII.png");
+              background-size: 100%;
+            }
+
+              .sir_toby {
+                float: right;
+                width: 30%;
+              }
 
 span.character_role {
 }
@@ -214,10 +233,34 @@ span.character_role {
     position: absolute;
     right: 0;
     top: 0;
-  }
-
+}
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
+  section.dramatis {
+    background: none;
+  }
+  p.charactername{
+    margin-left: 2%;
+  }
+
+  .character {
+    margin-left: 2%;
+    margin-right: 50%;
+  }
+
+  .verseline {
+    margin-left: 5%;
+    margin-right: 0;
+  }
+
+.prose {
+  margin-left: 5%;
+  margin-right: 0;
+}
+
+.waves_scene {
+  background-repeat: no-repeat;
+}
