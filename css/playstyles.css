@@ -227,6 +227,20 @@ h1.act {
                 float: right;
               }
 
+              .clown {
+                width:35%;
+                float: right;
+                margin-right: 6%;
+              }
+
+              .olivia {
+                width:50%;
+                float: right;
+              }
+
+              .stage {
+                display: hidden;
+              }
 
 
 span.character_role {
