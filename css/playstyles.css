@@ -196,9 +196,26 @@ h1.act {
               background-size: 100%;
             }
 
+            .waves_1 {
+              display: none;
+            }
+
               .sir_toby {
                 float: right;
                 width: 30%;
+              }
+
+              .flower {
+                float: right;
+                width:30%;
+                margin-right: 5%;
+              }
+
+              .viola {
+                float: left;
+                width: 30%;
+                margin-left: 7%;
+
               }
 
 span.character_role {
