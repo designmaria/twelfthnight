@@ -215,8 +215,19 @@ h1.act {
                 float: left;
                 width: 30%;
                 margin-left: 7%;
-
               }
+
+              .lute {
+                width: 40%;
+                float: right;
+              }
+
+              .malvolio {
+                width: 60%;
+                float: right;
+              }
+
+
 
 span.character_role {
 }
