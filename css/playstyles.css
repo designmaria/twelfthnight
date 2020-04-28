@@ -242,6 +242,12 @@ h1.act {
                 display: hidden;
               }
 
+              .sebastian {
+                float: right;
+                width: 40%;
+                margin-right: 10%;
+              }
+
 
 span.character_role {
 }
