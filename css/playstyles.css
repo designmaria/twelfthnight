@@ -28,6 +28,10 @@ ul {
          width: 100%;
          background: orange;
         }
+
+.menu {
+  font-size: 30px;
+}
 a {
           font-family: bebas-kai, sans-serif;
           color: black;
@@ -317,6 +321,18 @@ span.character_role {
     display: block;
     text-align: left;
   }
+
+.topnav {
+  background-color: white;
+}
+
+a{
+  color: orange;
+  font-size: 200%;
+}
+.menu {
+  font-size: 220%;  
+}
   section.dramatis {
     background: none;
   }
@@ -375,4 +391,30 @@ float: none;
 height: auto;
 width: auto;
 
+}
+.sir_toby {
+  width: 60%;
+}
+
+.malvolio {
+  width: 70%;
+  margin-right: 0;
+}
+.flower {
+  width: 60%;
+}
+
+.clown {
+  width: 60%;
+}
+
+.olivia {
+  width: 90%;
+  float: right;
+}
+
+.sebastian {
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

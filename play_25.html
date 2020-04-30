@@ -12,6 +12,7 @@
 	<body id="play_25" lang="en-GB">
 
 		<div class="topnav" id="myTopnav">
+			<a class="menu">Menu</a>
 			<a href="play_25.html#_idTextAnchor000" class="active">Dramatis Personae</a>
 			<a href="play_25.html#_idTextAnchor001">Act I</a>
 			<a href="play_25.html#_idTextAnchor007">Act II</a>
@@ -2854,6 +2855,9 @@
 			<h2 class="stagedirection balance-text">Exit</h2>
 			<p class="character">Olivia</p>
 			<p class="verseline">He hath been most notoriously abus’d.</p>
+
+			<img class="sebastian"src="images/viola_cesario.png" alt="Viola and Sebastian">
+
 			<p class="character">Duke</p>
 			<p class="verseline">Pursue him, and entreat him to a peace;</p>
 			<p class="verseline">He hath not told us of the captain yet.</p>
@@ -2866,10 +2870,6 @@
 			<p class="verseline">Orsino’s mistress, and his fancy’s queen.</p>
 			<h2 class="stagedirection balance-text">Exeunt all but the <span class="character_inline">Clown</span></h2>
 			<h2 class="stagedirection balance-text"><span class="character_inline">Clown</span> sings</h2>
-
-			<img class="sebastian"src="images/viola_cesario.png" alt="Viola and Sebastian">
-
-
 			<p class="song">When that I was and a little tiny boy,</p>
 			<p class="song">With hey, ho, the wind and the rain,</p>
 			<p class="song">A foolish thing was but a toy,</p>
@@ -2892,10 +2892,16 @@
 			<p class="song">And we’ll strive to please you every day.</p>
 			<h2 class="stagedirection balance-text">Exit</h2>
 			<p class="lastlineinverse"><span class="the-end">-The End-</span></p>
-			<div>
-				<div id="_idContainer006" class="sceneImage">
-
-				</div>
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+			</script>
 			</div>
 		</section>
 	</body>

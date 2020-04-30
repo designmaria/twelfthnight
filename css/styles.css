@@ -66,6 +66,7 @@ a:hover {
 .beachback {
   background-image: url("../images/beach.png");
   background-size: cover;
+  padding-bottom: 10%;
 }
 
 .quote {
@@ -82,7 +83,7 @@ p.quote1 {
   font-style: italic;
   letter-spacing: 5%;
   animation-name: quotation;
-  animation-duration:10s;
+  animation-duration:15s;
 }
 @keyframes quotation {
   from {opacity:0;}
@@ -95,26 +96,29 @@ p.quote1 {
   color: black;
   text-align: justify;
   padding: 40px;
-  animation-name: resumen;
-  animation-duration: 3s;
+  font-weight: bolder; 
+  margin-left: 10%;
+  margin-right: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: normal;
 }
 
 
 
 div.cover_image {
   float: right;
+
 }
 
 img {
-  width: 250px;
-  height: 350px;
+  width: 300px;
+  height: 450px;
   float: right;
   display: inline;
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-right: 20px;
-  margin-left: 15px;
+  position: sticky;
+  margin: 5%;
+  margin-right: 15%;
 }
 
 
@@ -124,14 +128,13 @@ padding-left: 50px;
 padding-right: 50px;
 color: black;
 text-align: justify;
-font-weight: bold;
 }
 
 .lista {
 text-align: center;
 border: solid orange 2px;
-margin-left: 0;
-margin-right: 0;
+margin-left: 10%;
+margin-right: 10%;
 right: 0;
 left: 0;
 margin-top: 70px;
