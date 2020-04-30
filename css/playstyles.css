@@ -395,7 +395,8 @@ width: auto;
 
 }
 .sir_toby {
-  width: 60%;
+  width: 100%;
+  margin-left: 3%;
 }
 
 .malvolio {
@@ -413,6 +414,10 @@ width: auto;
 .olivia {
   width: 90%;
   float: right;
+}
+
+.viola {
+  width: 70%;
 }
 
 .sebastian {
