@@ -97,8 +97,38 @@ section.play {
 }
 
 
+.audiobook  {
+position: relative;
+padding: 5%;
+background-image: url("../images/web_background_2.png");
+background-size: cover;
+padding-bottom: 25%;
+}
 
+.audiotitle {
+  font-family: bebas-kai, serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
 
+.video {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  width: 40%;
+  height: 60%;
+}
+.video_1{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+  float: right;
+  width: 40%;
+  height: 60%;
+
+  }
 
 h1.act {
   padding: 8%;
@@ -239,7 +269,7 @@ h1.act {
               }
 
               .stage {
-                display: hidden;
+                display: none;
               }
 
               .sebastian {
@@ -311,4 +341,38 @@ span.character_role {
 
 .waves_scene {
   background-repeat: no-repeat;
+}
+.audiobook {
+padding-bottom: 80%;
+}
+
+.audiotitle {
+  font-family: bebas-kai, serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 30%;
+  margin-top: 1%;
+  padding: 0;
+}
+
+
+.video {
+  display: run-in;
+  margin-right: 20%;
+  margin-left: 15%;
+  float: none;
+  height: auto;
+  width: auto;
+}
+
+.video_1 {
+display: block;
+margin-left: 15%;
+margin-right: 20%;
+margin-top: 40%;
+float: none;
+height: auto;
+width: auto;
+
 }
