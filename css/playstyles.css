@@ -331,7 +331,7 @@ a{
   font-size: 200%;
 }
 .menu {
-  font-size: 220%;  
+  font-size: 220%;
 }
   section.dramatis {
     background: none;
@@ -416,5 +416,5 @@ width: auto;
 .sebastian {
   width: 90%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 10%;}
 }
