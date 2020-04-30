@@ -359,7 +359,7 @@ a{
   background-repeat: no-repeat;
 }
 .audiobook {
-padding-bottom: 80%;
+padding-bottom: 25%;
 }
 
 .audiotitle {
@@ -374,9 +374,10 @@ padding-bottom: 80%;
 
 
 .video {
-  display: run-in;
-  margin-right: 20%;
-  margin-left: 15%;
+  position: static;
+  display: block;
+  margin-right: 15%;
+  margin-left: 2%;
   float: none;
   height: auto;
   width: auto;
@@ -384,9 +385,10 @@ padding-bottom: 80%;
 
 .video_1 {
 display: block;
-margin-left: 15%;
+position: static;
+margin-left: 2%;
 margin-right: 20%;
-margin-top: 40%;
+margin-top: 20%;
 float: none;
 height: auto;
 width: auto;
