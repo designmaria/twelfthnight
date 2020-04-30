@@ -273,6 +273,16 @@ h1.act {
                 float: right;
               }
 
+              .andrew {
+                float: right;
+                width: 60%;
+              }
+
+              .feste {
+                float: right;
+                width: 60%;
+              }
+
               .stage {
                 display: none;
               }
@@ -420,6 +430,11 @@ width: auto;
 .viola {
   width: 70%;
 }
+
+.feste {
+  width: 80%;
+}
+
 
 .sebastian {
   width: 90%;
