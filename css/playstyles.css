@@ -228,6 +228,7 @@ h1.act {
             .waves_scene {
               background-image: url("../images/actII.png");
               background-size: 100%;
+              background-repeat: no-repeat;
             }
 
             .waves_1 {

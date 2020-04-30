@@ -178,7 +178,9 @@ ul li {
   font-size: 40px;
 }
 
-.beachback {}
+.beachback {
+  background-repeat: no-repeat;
+}
 
 .sypnosis {
   font-family: times, sans-serif;
