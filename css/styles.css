@@ -179,7 +179,7 @@ ul li {
   }
 
 .author{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .beachback {
@@ -223,7 +223,7 @@ img {
 
 .lista {
 border: solid orange 2px;
-margin-left: 0;
+margin-left: 10%;
 margin-right: 0;
 right: 0;
 left: 0;
