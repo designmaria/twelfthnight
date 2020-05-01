@@ -107,6 +107,8 @@ p.quote1 {
 
 div.cover_image {
   float: right;
+  margin-right: 2%;
+  padding-left: 2%;
 
 }
 
@@ -132,11 +134,11 @@ text-align: justify;
 .lista {
 text-align: center;
 border: solid orange 2px;
-margin-left: 10%;
-margin-right: 10%;
-right: 0;
-left: 0;
+margin-left: 15%;
+margin-right: 2%;
+padding-right: 0;
 margin-top: 70px;
+width: 80%;
 }
 
 ul li {
@@ -146,7 +148,9 @@ ul li {
   color: black;
   font-family: bebas-kai, sans-serif;
   font-weight: 700;
-  margin-left: 15%;
+  padding-left: 0;
+  margin-left: 3%;
+  margin-block-start: 0;
 
 }
 
@@ -179,7 +183,7 @@ ul li {
 }
 
 .beachback {
-  
+
 }
 
 .sypnosis {
